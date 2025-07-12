@@ -1,0 +1,14 @@
+.logoBox{
+    display: flex;
+    align-items: center;
+}
+
+.logoBox img{
+    object-fit: cover;
+    height: 6rem;
+}
+
+.logoBox p{
+    font-size: 1.9rem;
+    font-weight: 800;
+}
