@@ -1,13 +1,15 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import { Link } from 'react-router-dom'
+import '../components/stylesheets/header.css'
 
 const Footer = () => {
   return (
     <footer className="px-6 md:px-16 lg:px-36 mt-40 w-full text-gray-300">
             <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-500 pb-14">
                 <div className="md:max-w-96">
-                    <Link to="/" className='max-md:flex-1 logoBox'>
-                        <img src={assets.Preview} alt="Logo" className='h-18 w-9' />
+                    <Link to="/" className='max-md:flex-1 logoBox logoBox2'>
+                        <img src={assets.Preview} alt="Logo" className='h-18 w-10' />
                         <p>howTime</p>
                     </Link>
                     <p className="mt-6 text-sm">
