@@ -44,7 +44,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="bg-gray-900 text-white min-h-screen pt-20 pb-20 px-4 md:px-8">
+    <div className="bg-gray-900 pt-45 pb-50 text-white min-h-screen pt-20 pb-20 px-4 md:px-8">
       <motion.div
         className="max-w-4xl mx-auto"
         initial={{ opacity: 0, y: 50 }}
@@ -157,7 +157,7 @@ const ContactUs = () => {
           </div>
           <div className="flex items-center gap-3 text-lg">
             <FaEnvelope className="text-red-400" />
-            <span>support@showtime.com</span>
+            <span>showtimeOfficial@gmail.com</span>
           </div>
           <div className="flex items-center gap-3 text-lg">
             <FaPhoneAlt className="text-red-400" />
@@ -166,12 +166,12 @@ const ContactUs = () => {
           <div className="flex items-center gap-3 text-lg">
             <FaGithub className="text-red-400" />
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Punit49/ShowTime.git"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline text-blue-300"
             >
-              github.com/yourusername
+              GitHub
             </a>
           </div>
         </motion.div>

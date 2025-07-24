@@ -24,18 +24,26 @@ const Footer = () => {
                     <div>
                         <h2 className="font-semibold mb-5">Company</h2>
                         <ul className="text-sm space-y-2">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Contact us</a></li>
-                            <li><a href="#">Privacy policy</a></li>
+                            <li><a onClick={()=> {scrollTo(0,0)}} href="/">Home</a></li>
+                            <li><a onClick={()=> {scrollTo(0,0)}} href="/about-us">About us</a></li>
+                            <li><a onClick={()=> {scrollTo(0,0)}} href="/contact-us">Contact us</a></li>
+                            <li><a onClick={()=> {scrollTo(0,0)}} href="/movies">Movies</a></li>
                         </ul>
                     </div>
                     <div>
                         <h2 className="font-semibold mb-5">Get in touch</h2>
                         <div className="text-sm space-y-2">
-                            <p>+1-234-567-890</p>
+                            <p>+919999999</p>
                             <p>showtimeOfficial@gmail.com</p>
                         </div>
+                        <a
+                            href="https://github.com/Punit49/ShowTime.git"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:underline text-blue-300"
+                            >
+                            GitHub
+                        </a>
                     </div>
                 </div>
             </div>
