@@ -9,10 +9,10 @@ import toast from 'react-hot-toast';
 
 const SeatLayout = () => {
 
-   const groupRows = [["A", "B"], ["C", "D"], ["E", "F"], ["G", "H"], ["I", "J"]]
+  const groupRows = [["A", "B"], ["C", "D"], ["E", "F"], ["G", "H"], ["I", "J"]]
 
   const navigate = useNavigate();
-  const {id, date } = useParams()
+  const { id, date } = useParams();
   const [selectedSeats, setSelectedSeats] = useState([])
   const [selectedTime, setSelectedTime] = useState(null)
   const [show, setShow] = useState(null)
@@ -26,7 +26,7 @@ const SeatLayout = () => {
           movie: show,
           dateTime: dummyDateTimeData
         })
-      }
+      }  
   }
 
   const handleSeatClick = (seatId) =>{
@@ -56,7 +56,7 @@ const SeatLayout = () => {
                     );
                 })}
             </div>
-        </div>
+      </div>
   )
 
   useEffect(() => {
